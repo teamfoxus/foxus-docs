@@ -19,4 +19,4 @@ Contents
 .. toctree::
 
    building_foxus
-   api
+   
