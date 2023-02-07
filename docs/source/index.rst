@@ -1,13 +1,9 @@
 Welcome to Lumache's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Foxus is a project experimenting with passthrough Augmented Reality on existing devices. It uses a stereoscopic camera add-on that runs on the Oculus Quest 2 at 60fps, with full RGB passthrough. 
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+The Foxus is built with community support by the team at [voxels.com]. 
 
 .. note::
 
