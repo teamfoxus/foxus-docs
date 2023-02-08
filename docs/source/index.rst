@@ -13,5 +13,5 @@ Contents
 .. toctree::
 
    building_foxus
-   about
+   ecosystem
    
