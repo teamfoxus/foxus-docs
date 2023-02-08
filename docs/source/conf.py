@@ -33,5 +33,9 @@ html_theme = 'sphinx_rtd_theme'
 html_logo = 'foxus-logo-favicon.webp'
 html_favicon = 'foxus-logo-favicon.webp'
 
+html_theme_options = {
+    'display_version': False
+}
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
