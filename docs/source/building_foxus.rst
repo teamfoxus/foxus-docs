@@ -1,7 +1,10 @@
 Building Foxus
 =====
 
-.. _linux:
+.. note::
+
+   Here be dragons! This project is under active development. 
+
 
 Linux
 ------------
@@ -14,7 +17,6 @@ To use Lumache, first install it using pip:
 
 
 
-.. _windows:
 
 Windows
 ------------
@@ -26,7 +28,6 @@ To use Lumache, first install it using pip:
    (.venv) $ pip install lumache
 
 
-.. _macOS:
 
 Mac OS
 ------------
