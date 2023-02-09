@@ -11,7 +11,7 @@ For now, to find out more, make sure you visit the `Foxus website <http://www.fo
 
 You can join the `Foxus discord server <https://discord.gg/rdU8X5RgRp>`_ for immediate support.
 
-.. raw:: 
+.. raw:: html
    <iframe src="https://discord.com/widget?id=1016109736954974269&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 .. toctree::
