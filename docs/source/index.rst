@@ -11,7 +11,6 @@ For now, to find out more, make sure you visit the `Foxus website <http://www.fo
 
 .. toctree::
    :maxdepth: 1
-   index
    building_foxus
    ecosystem
    :hidden:
