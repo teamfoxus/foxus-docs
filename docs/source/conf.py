@@ -27,6 +27,8 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
+html_static_path = ['_static']
+
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
@@ -35,7 +37,8 @@ html_favicon = 'foxus-logo-favicon.webp'
 
 html_theme_options = {
     'display_version': False,
-    'style_nav_header_background': 'rgba(0,0,0,.05)'
+    'style_nav_header_background': 'rgba(0,0,0,.05)',
+    'prev_next_buttons_location': 'none'
 }
 
 # -- Options for EPUB output
