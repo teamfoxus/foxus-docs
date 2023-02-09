@@ -5,12 +5,11 @@ Foxus documentation
 
 .. note::
 
-   Here be dragons! This project is under active development. 
+   Here be dragons! Watch out! This project is under active development. 
 
 For now, to find out more, make sure you visit the `Foxus website <http://www.foxus.com>`_ and `Foxus store <http://store.foxus.com>`_.
 
 .. toctree::
-   :maxdepth: 1
    building_foxus
    ecosystem
    :hidden:
