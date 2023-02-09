@@ -11,7 +11,7 @@ Contents
 --------
 
 .. toctree::
-
+   index :hidden:
    building_foxus
    ecosystem
    
