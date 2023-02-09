@@ -2,8 +2,7 @@
     width:calc(100% - 30px);
     position:relative;
     height:150px;
-    background:#333;
-    color:white;
+    background:#fcfcfc;;
     font-size:1.12em;
     display:flex;
     text-align:center;
@@ -30,7 +29,7 @@
 }
 
 .j {
-    height:60%;
+    height:70%;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
