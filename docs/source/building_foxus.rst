@@ -112,6 +112,11 @@ Now let's try actually building our special version of Godot. Each of these step
    cd foxus
    ./build_godot.sh
    ./build.sh
+  
+Finally, to run the editor:
+
+.. code-block:: console
+
    ./run_editor.sh
 
 You're in! Go to Editor > Editor Settings in the top bar. Here you'll have to set the Android SDK path (it's the same one we found earlier) and the debug keystore (which will be in the foxus folder). After that, you're good to go and you can build this project out to your Oculus headset.
