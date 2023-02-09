@@ -4,7 +4,9 @@ Building Foxus
 .. note::
 
    Here be dragons! Not all environments are currently supported.
+   
    Those which have support may not have detailed build instructions yet.
+   
    Got Foxus built out on something not mentioned here? We'd love to hear from you!
 
 
