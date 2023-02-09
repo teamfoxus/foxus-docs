@@ -45,7 +45,8 @@ html_theme_options = {
     'display_version': False,
     'style_nav_header_background': 'rgba(0,0,0,.05)',
     'prev_next_buttons_location': 'none',
-    'titles_only': True
+    'titles_only': True,
+    'navigation_depth': 0
 }
 
 # -- Options for EPUB output
