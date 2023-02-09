@@ -34,7 +34,8 @@ html_logo = 'foxus-logo-favicon.webp'
 html_favicon = 'foxus-logo-favicon.webp'
 
 html_theme_options = {
-    'display_version': False
+    'display_version': False,
+    'style_nav_header_background': '#f3f3f3'
 }
 
 # -- Options for EPUB output
