@@ -3,7 +3,9 @@ Building Foxus
 
 .. note::
 
-   Here be dragons! This project is under active development. 
+   Here be dragons! Not all environments are currently supported.
+   Those which have support may not have detailed build instructions yet.
+   Got Foxus built out on something not mentioned here? We'd love to hear from you!
 
 
 Linux (General)
@@ -117,22 +119,14 @@ You're in! Go to Editor > Editor Settings in the top bar. Here you'll have to se
 Windows
 ------------
 
-To use Lumache, first install it using pip:
-
-.. code-block:: console
-
-   (.venv) $ pip install lumache
-
-
+TODO
 
 MacOS (Intel chip only)
 ------------
 
 M1 and M2 chips are currently **not** supported for building Foxus. 
 
-.. code-block:: console
-
-   (.venv) $ pip install lumache
+TODO
 
 
 
