@@ -11,9 +11,9 @@ For now, to find out more, make sure you visit the `Foxus website <http://www.fo
 
 You can also join the `Foxus discord server <https://discord.gg/rdU8X5RgRp>`_ for discussions, contributions and support.
 
-.. image:: '_static/foxus-rotate.gif'
+.. image:: _static/foxus-rotate.gif
    :align: center
-   
+
 
 .. toctree::
    building_foxus
