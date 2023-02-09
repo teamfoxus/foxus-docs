@@ -32,8 +32,8 @@ html_static_path = ['_static']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
-html_logo = 'foxus-logo-favicon.webp'
-html_favicon = 'foxus-logo-favicon.webp'
+html_logo = '_static/foxus-logo-favicon.webp'
+html_favicon = '_static/foxus-logo-favicon.webp'
 
 html_theme_options = {
     'display_version': False,
