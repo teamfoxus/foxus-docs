@@ -7,8 +7,7 @@ Foxus documentation
 
    Here be dragons! This project is under active development. 
 
-Contents
---------
+For now, to find out more, make sure you visit the `Foxus website <http://www.foxus.com>`_ and `Foxus store <http://store.foxus.com>`_.
 
 .. toctree::
    index 
