@@ -13,7 +13,16 @@ You can also join the `Foxus discord server <https://discord.gg/rdU8X5RgRp>`_ fo
 
 .. raw:: html
 
-   <iframe src="https://discord.com/widget?id=1016109736954974269&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+   <div class="join"><div class="j">
+   <!-- your server icon -->
+   <img src="_static/foxus-rotate.gif">
+   <!-- server name -->
+   Foxus
+   </div>
+   <!-- put server invite link in between quotes -->
+   <a href="https://discord.gg/rdU8X5RgRp">
+   Join Server
+   </a></div>
 
 .. toctree::
    building_foxus
