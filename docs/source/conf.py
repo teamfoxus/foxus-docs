@@ -31,9 +31,7 @@ html_static_path = ['_static']
 
 # -- Custom html / css files go here
 
-html_css_files = [
-    'discordwidget.css'
-]
+# html_css_files = []
 # html_js_files = []
 
 

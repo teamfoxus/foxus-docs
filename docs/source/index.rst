@@ -11,18 +11,9 @@ For now, to find out more, make sure you visit the `Foxus website <http://www.fo
 
 You can also join the `Foxus discord server <https://discord.gg/rdU8X5RgRp>`_ for discussions, contributions and support.
 
-.. raw:: html
-
-   <div class="join"><div class="j">
-   <!-- your server icon -->
-   <img src="_static/foxus-rotate.gif">
-   <!-- server name -->
-   Foxus
-   </div>
-   <!-- put server invite link in between quotes -->
-   <a href="https://discord.gg/rdU8X5RgRp">
-   Join Server
-   </a></div>
+.. image:: '_static/foxus-rotate.gif'
+   :align: center
+   
 
 .. toctree::
    building_foxus
