@@ -34,5 +34,6 @@ Finally, in the lower-left of the screen, you'll see the FileSystem area. This s
 There's a lot more to explore in Godot, but for now, this is all you need to know about the basic anatomy of the project. 
 
 .. toctree::
-   tutorials/*
+   :glob:
+   tutorials_*
    :hidden:
