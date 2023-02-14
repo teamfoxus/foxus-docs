@@ -11,6 +11,8 @@ The Foxus camera is a nifty bit of hardware -- two high-quality stereoscopic cam
     :align: center
 
 
+*They look great, too.*
+
 Right now, these play nice with the Godot engine, using a special plugin called gd_eiffelcam to process the video feeds. You can connect them to a Meta Quest headset using a microUSB to USB-C cable. You can also connect them directly to a computer, where the feeds can be used in other programs with a bit of hackery!
 
 Foxus Playback
