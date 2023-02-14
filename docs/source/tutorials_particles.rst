@@ -74,6 +74,7 @@ If we just leave our particle emitter here, it looks pretty good in the Foxus vi
       Your browser does not support the video tag.
    </video> 
    </center>
+   <br>
 
 If we want the bokeh particles to move with the camera, on the other hand, we can anchor this to our "head" by dragging the Particles node (in the scene hierarchy) into the ARVR origin node, and then inside of the ARVRCamera node. 
 
@@ -85,3 +86,5 @@ If we want the bokeh particles to move with the camera, on the other hand, we ca
       Your browser does not support the video tag.
    </video> 
    </center>
+   <br>
+
