@@ -126,14 +126,14 @@ You're in! Go to Editor > Editor Settings in the top bar. Here you'll have to se
 Windows
 ------------
 
-TODO
+*This section is coming soon. Stay tuned!*
 
 MacOS (Intel chip only)
 ------------
 
 M1 and M2 chips are currently **not** supported for building Foxus. 
 
-TODO
+*This section is coming soon. Stay tuned!*
 
 
 

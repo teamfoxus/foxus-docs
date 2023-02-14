@@ -33,7 +33,7 @@ By clicking on the entries reading [empty] we can assign new materials and meshe
 
 *The particle emitter is now pushing out endless Sphere Meshes.*
 
-If you're looking to create spheres or other simple shapes, this might be good enough. Right now, the spheres are only being fired downwards, like a machine gun. In the new Particle Material we've created (you may have to click on it to expand and edit it), open the heading for "Emission Shape."" By default, this is set to a single point, which is why our spheres are all appearing at the same location. We can change the Emission Shape to a sphere, too, and increase the radius, to give a more organic falling particle effect.
+If you're looking to create spheres or other simple shapes, this might be good enough. Right now, the spheres are only being fired downwards, like a machine gun. In the new Particle Material we've created (you may have to click on it to expand and edit it), open the heading for "Emission Shape." By default, this is set to a single point, which is why our spheres are all appearing at the same location. We can change the Emission Shape to a sphere, too, and increase the radius, to give a more organic falling particle effect.
 
 .. image:: _static/particles5.gif
    :align: center
@@ -61,3 +61,5 @@ Since I'm making bokeh, I already know a few things about how I want this new ma
 *If you're familiar with hexadecimal color codes, this orange is #fab000 -- isn't that fabulous?*
 
 There's one more really important thing we have to do to make sure our bokeh will show up nicely in the Foxus view... position the particle emitter! 
+
+*This section is coming soon. Stay tuned!*
