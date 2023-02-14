@@ -62,4 +62,22 @@ Since I'm making bokeh, I already know a few things about how I want this new ma
 
 There's one more really important thing we have to do to make sure our bokeh will show up nicely in the Foxus view... position the particle emitter! 
 
-*This section is coming soon. Stay tuned!*
+Minimize the Process Material and Draw Passes headings that we've been working on. We can position the particle emitter using the "Transform" heading inside of the "Spatial" property, a little farther down. To position it more in the eyeline of a Foxus user, I've set the y value to 3.5 and the z value to -5. 
+
+If we just leave our particle emitter here, it looks pretty good in the Foxus view. However, you'll notice that it is anchored to the *scene*, which means that when we turn our head, it doesn't move with us. 
+
+.. raw:: html
+
+   <video width="320" height="240" controls>
+      <source src="_static/particles_world_anchor.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+   </video> 
+
+If we want the bokeh particles to move with the camera, on the other hand, we can anchor this to our "head" by dragging the Particles node (in the scene hierarchy) into the ARVR origin node, and then inside of the ARVRCamera node. 
+
+.. raw:: html
+
+   <video width="320" height="240" controls>
+      <source src="_static/particles_head_anchor.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+   </video> 
