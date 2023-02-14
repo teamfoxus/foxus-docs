@@ -68,16 +68,20 @@ If we just leave our particle emitter here, it looks pretty good in the Foxus vi
 
 .. raw:: html
 
-   <video width="800" height="600" controls>
+   <center>
+   <video width="640" height="480" controls>
       <source src="_static/particles_world_anchor.mp4" type="video/mp4">
       Your browser does not support the video tag.
    </video> 
+   </center>
 
 If we want the bokeh particles to move with the camera, on the other hand, we can anchor this to our "head" by dragging the Particles node (in the scene hierarchy) into the ARVR origin node, and then inside of the ARVRCamera node. 
 
 .. raw:: html
 
-   <video width="800" height="600" controls>
+   <center>
+   <video width="640" height="480" controls>
       <source src="_static/particles_head_anchor.mp4" type="video/mp4">
       Your browser does not support the video tag.
    </video> 
+   </center>
