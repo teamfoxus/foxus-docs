@@ -38,9 +38,9 @@ If you're looking to create spheres or other simple shapes, this might be good e
 .. image:: _static/particles5.gif
    :align: center
 
-*You can experiment with other emission shapes and their sizes, too.*
+*Of course, you can experiment with other emission shapes and their sizes.*
 
-Let's say I want to create some particles inspired by the `bokeh effect <https://en.wikipedia.org/wiki/Bokeh>_` -- gently falling balls of semi-transparent light. There's a few things I'll want to change here. 
+Let's say I want to create some particles inspired by the `bokeh effect <https://en.wikipedia.org/wiki/Bokeh>`_ -- gently falling balls of semi-transparent light. There's a few things I'll want to change here. 
 
 First, my bokeh are falling too quickly. If I open the "Gravity" sub-heading, I can see that by default a force of -9.8 is being applied to these particles along the green, vertical y axis. Changing this value to -1 makes them fall slower (and positive values would reverse their gravity). 
 
