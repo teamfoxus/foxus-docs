@@ -18,4 +18,5 @@ You can also join the `Foxus discord server <https://discord.gg/rdU8X5RgRp>`_ fo
 .. toctree::
    building_foxus
    ecosystem
+   creator_tutorials
    :hidden:
