@@ -68,7 +68,7 @@ If we just leave our particle emitter here, it looks pretty good in the Foxus vi
 
 .. raw:: html
 
-   <video width="320" height="240" controls>
+   <video width="800" height="600" controls>
       <source src="_static/particles_world_anchor.mp4" type="video/mp4">
       Your browser does not support the video tag.
    </video> 
@@ -77,7 +77,7 @@ If we want the bokeh particles to move with the camera, on the other hand, we ca
 
 .. raw:: html
 
-   <video width="320" height="240" controls>
+   <video width="800" height="600" controls>
       <source src="_static/particles_head_anchor.mp4" type="video/mp4">
       Your browser does not support the video tag.
    </video> 
