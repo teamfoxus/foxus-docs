@@ -18,7 +18,7 @@ Right now, these play nice with the Godot engine, using a special plugin called 
 Foxus Playback
 --------
 
-The Foxus playback engine is an app that runs on your Quest 2 headset to give you access to mixed reality experiences. It can be installed via Sidequest, or using ADB to install the latest APK.
+The Foxus playback engine is an app that runs on your Quest 2 headset to give you access to mixed reality experiences. It can be installed via `Sidequest <https://sidequestvr.com/app/9232/foxus>`_, or using an ADB connection to install the latest APK to your device.
 
 This App currently allows you to adjust the colour of the video feed with a menu of LUTS, which is the first MR experience we have implemented. You can use our Foxus Creator platform powered by Godot to create your own MR content to be viewed in the Foxus App.
 

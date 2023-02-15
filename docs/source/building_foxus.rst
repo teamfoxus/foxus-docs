@@ -126,14 +126,63 @@ You're in! Go to Editor > Editor Settings in the top bar. Here you'll have to se
 Windows
 ------------
 
-*This section is coming soon. Stay tuned!*
+Windows builds for Foxus are not yet supported. 
 
 MacOS (Intel chip only)
 ------------
 
 M1 and M2 chips are currently **not** supported for building Foxus. 
 
-*This section is coming soon. Stay tuned!*
+.. note::
+
+   Here be dragons! The macOS builds of Foxus are mostly untested. 
+
+   If you're running a macOS environment and want to share your experiences building out Foxus, get in touch!
 
 
+You'll first need to download the macOS build dependencies for Godot, as described in `their documentation <https://docs.godotengine.org/en/stable/development/compiling/compiling_for_osx.html>`_. If you use `Homebrew <https://brew.sh/>`_ or `MacPorts <https://www.macports.org/>`_, installing SCons and yasm is a bit easier:
 
+.. example-code::
+   .. code-block:: Homebrew
+
+      brew install scons yasm
+
+   .. code-block:: MacPorts
+
+      sudo port install scons yasm
+
+You'll also want to install Android Studio. Go to https://developer.android.com/studio/index.html and find the macOS download. Go through the standard install process. When you're on the screen reading “Welcome to Android Studio”, click “More Actions” and then “SDK Manager”.
+
+On this screen, you're given the install location of the Android SDK, which you'll need to know in a moment. You can also install the required NDK here. Go to the *SDK Tools* tab, then check *Show Package Details* in the bottom right. Now you'll be able to select NDK version 23.2.8568313 and install it by hitting Apply.
+
+Set the *ANDROID_NDK_ROOT* and *ANDROID_SDK_ROOT* variables, using the install location of your Android SDK from above. For example, if your Android SDK was installed in */home/Android/Sdk*, your commands might look like this:
+
+.. code-block:: console
+
+   export ANDROID_SDK_ROOT=/home/Android/Sdk
+   export ANDROID_NDK_ROOT=/home/Android/Sdk/ndk/23.2.8568313
+
+If you don't have any installed already, I also recommend getting *unzip*, *clang* and both the JRE and JDK for your preferred version of Java. (Java 11 works well.)
+
+You can now use the console to clone and build Foxus. Each of these steps will take a while.
+
+.. code-block:: console
+
+   git clone --recursive https://github.com/cryptovoxels/foxus.git
+   cd foxus
+   ./build_godot.sh
+   ./build.sh
+
+Finally, to run the editor:
+
+.. code-block:: console
+
+   ./run_editor.sh
+
+Go to Editor > Editor Settings in the top bar. Here you'll have to set the Android SDK path (it's the same one we found earlier) and the debug keystore (which will be in the foxus folder). After that, you're good to go and you can build this project out to your Oculus headset.
+
+If you're trying to run Foxus on macOS directly, due to how the USB cameras are handled in macOS, the Foxus app has to run as root (Administrator). Use the provided run.sh with sudo to run it:
+
+.. code-block:: console
+
+   sudo ./run.sh
