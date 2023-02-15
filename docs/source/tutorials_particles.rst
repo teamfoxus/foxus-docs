@@ -88,3 +88,14 @@ If we want the bokeh particles to move with the camera, on the other hand, we ca
    </center>
    <br>
 
+For many types of particles, using a primitive shape like a sphere or cube isn't going to cut it. While you can certainly create more complex mesh shapes and use them as particles, a better solution might be to use 2D images like sprites. 
+
+To accomplish this, you can edit your existing particles, or make a new one. I've used the same settings for the Process Material section, meaning that my particles are gently falling in a sphere shape. However, instead of using a SphereMesh under Draw Passes, I've selected a QuadMesh, which is a flat quadrilateral. The new SpatialMaterial for this quad needs to have transparency checked, and to be unshaded, just like our last one. I also recommend enabling "Billboard Mode" under the "Parameters" heading. This means that the particles will always face the viewer.
+
+Finally, under Albedo, instead of selecting a color, I've just loaded in the icon.png in the Foxus project as its texture.
+
+.. image:: _static/particles8.gif
+   :align: center
+
+*It's like Foxus icon snowflakes...*
+
