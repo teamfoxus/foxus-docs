@@ -142,14 +142,14 @@ M1 and M2 chips are currently **not** supported for building Foxus.
 
 You'll first need to download the macOS build dependencies for Godot, as described in `their documentation <https://docs.godotengine.org/en/stable/development/compiling/compiling_for_osx.html>`_. If you use `Homebrew <https://brew.sh/>`_ or `MacPorts <https://www.macports.org/>`_, installing SCons and yasm is a bit easier:
 
-.. example-code::
-   .. code-block:: Homebrew
 
-      brew install scons yasm
+.. code-block:: Homebrew
 
-   .. code-block:: MacPorts
+   brew install scons yasm
 
-      sudo port install scons yasm
+.. code-block:: MacPorts
+
+   sudo port install scons yasm
 
 You'll also want to install Android Studio. Go to https://developer.android.com/studio/index.html and find the macOS download. Go through the standard install process. When you're on the screen reading “Welcome to Android Studio”, click “More Actions” and then “SDK Manager”.
 
