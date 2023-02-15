@@ -3,11 +3,14 @@ Building Foxus
 
 .. note::
 
-   Here be dragons! Not all environments are currently supported.
+   Here be dragons! Not all environments are currently supported, and those which have support may not have detailed build instructions yet.
    
-   Those which have support may not have detailed build instructions yet.
-   
+   Notably, Windows builds for Foxus are not yet supported. There's still some kinks to be worked out with the OpenCV libraries and other dependencies. 
+
+   Although it's still a big unknown, you can always try building Foxus under the Windows Subsystem for Linux or other virtual machine solutions!
+
    Got Foxus built out on something not mentioned here? We'd love to hear from you!
+
 
 
 Linux (General)
@@ -122,11 +125,6 @@ Finally, to run the editor:
    ./run_editor.sh
 
 You're in! Go to Editor > Editor Settings in the top bar. Here you'll have to set the Android SDK path (it's the same one we found earlier) and the debug keystore (which will be in the foxus folder). After that, you're good to go and you can build this project out to your Oculus headset.
-
-Windows
-------------
-
-Windows builds for Foxus are not yet supported. 
 
 MacOS (Intel chip only)
 ------------
