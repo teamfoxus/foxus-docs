@@ -1,0 +1,17 @@
+# Rhino
+newmtl foxus-gradient-01 (1)
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd foxus-gradient-01.jpg
+newmtl foxus-gradient-01
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd foxus-gradient-01.jpg
