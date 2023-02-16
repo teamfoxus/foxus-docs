@@ -16,12 +16,9 @@ Importing 3D Models
 
 If you've made a 3D model in an external program, or downloaded one you can use, you can probably import it into the Foxus view. Check the `Godot documentation <https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_scenes.html>`_ to find a list of accepted formats. For now, since we're keeping things as simple as possible, we'll be using a .obj file of the Foxus logo, with a simple gradient as its texture. You can download this file, and the texture it uses as an image, below.
 
-.. raw:: html
+:download:`Foxus Logo 3D Model.obj </_static/FOXUS_LOGO/Foxus Logo 3d model .obj>`_
 
-   <a href="/_static/FOXUS_LOGO/Foxus Logo 3d model .obj">Foxus Logo 3D Model.obj</a>
-   <br><br>
-   <a href="/_static/FOXUS_LOGO/foxus-gradient-01.jpg">foxus-gradient-01.jpg</a>
-   <br>
+:download:`foxus-gradient-01.jpg </_static/FOXUS_LOGO/foxus-gradient-01.jpg>`_
 
 You can drag these directly into the Foxus project folder, or tuck them inside of a sub-folder to keep things more organized. Either way, they will be visible inside of the FileSystem tab inside of Godot:
 
