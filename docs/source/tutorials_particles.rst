@@ -99,3 +99,9 @@ Finally, under Albedo, instead of selecting a color, I've just loaded in the ico
 
 *It's like Foxus icon snowflakes...*
 
+You can also use an animated texture instead of a still image, if you import some into the project. The easiest way to do this is to output separate frames of an animation as still images and to drag the whole folder into the Foxus project folder. Instead of loading in an image as the Albedo texture, select "New AnimatedTexture", and load your frames in individually. You can also define a number of frames and a frames-per-second rate here. 
+
+.. image:: _static/particles9.gif
+   :align: center
+
+*Short animations are easy to load in frame-by-frame.*
