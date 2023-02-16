@@ -35,4 +35,5 @@ There's a lot more to explore in Godot, but for now, this is all you need to kno
 
 .. toctree::
    tutorials_particles
+   tutorials_3d_models
    :hidden:
